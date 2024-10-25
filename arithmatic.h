@@ -6,6 +6,10 @@
 
 class arithmatic {
 public:
+    void calculate();
+    arithmatic(char symbol, int numberA, int numberB);
+    int getResult();
+private:
     char symbol;
     int numberA;
     int numberB;
@@ -17,7 +21,4 @@ public:
         {'*', [](int a, int b) { return a * b; }},
         {'/', [](int a, int b) { return b != 0 ? a / b : 0; }}
     };
-
-    void calculate();
-    arithmatic(char symbol, int numberA, int numberB);
 };

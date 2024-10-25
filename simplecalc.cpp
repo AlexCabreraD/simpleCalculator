@@ -24,7 +24,7 @@ int main() {
 
         arithmatic operation = arithmatic(symbol, number1, number2);
 
-        std::cout << "Result: " << operation.result << std::endl;
+        std::cout << "Result: " << operation.getResult() << std::endl;
 
         std::cout << "Type 'end' to quit or press enter to continue: ";
         std::cin.ignore();

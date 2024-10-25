@@ -16,3 +16,7 @@ void arithmatic::calculate() {
         std::cout << "Invalid operation!" << std::endl;
     }
 }
+
+int arithmatic::getResult() {
+    return this->result;
+}
